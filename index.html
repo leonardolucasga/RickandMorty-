@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Normalize Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--Nosso CSS-->
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/cardpersonangens.css">
+    <title>Rick and Morty</title>
+</head>
+<body>
+    <header>
+        <h1 class="title"> Consumindo API Rick and Morty</h1>
+        <h2>Personagens</h2>
+    </header>
+    <div class="grid-container" id="character-grid"></div>
+
+    <div id="character-details" style="display: none;">
+      <img id="character-image">
+      <div id="character-specs"></div>
+      <button id="return-button" class="return-button">Voltar</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

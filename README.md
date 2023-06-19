@@ -1,1 +1,1 @@
-# RickandMorty2.0
+# RickAndMortyAPI

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'RickAndMorty' ;
+    src: url('get_schwifty.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #17AEC8; 
+    font-family: 'RickAndMorty', Times, serif;
+    font-weight: normal;
+}
+.title{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+body{
+    background-color: #000;
+    color: #62dc50;
+}
